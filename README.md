@@ -48,7 +48,7 @@ $ pipenv shell
 
 5.  Confirm everything is working:
 
-```
+```p
 (djangox) $ python manage.py runserver
 ```
 
