@@ -26,12 +26,13 @@ DEBUG = True
 # DEBUG = False
 
 # ALLOWED_HOSTS = [modbk-django.herokuapp.com]
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost','modbk-django.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','modbk-django.herokuapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
